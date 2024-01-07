@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="HybridAutomationApp">
+
+    <listeners>
+    <listener class-name="com.HybridAutomationApplication.utilities.ExtentReportManager"/></listeners>
+
+<test name="HybridAutomationApplication">
+		<parameter name="browser" value="chrome" />
+		<classes>
+		
+		
+		<class name="com.HybridAutomationApplication.testCases.TC_LoginTest_001" />
+			
+		
+			
+			</classes>
+
+	</test>
+
+</suite>
